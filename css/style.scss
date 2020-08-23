@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin-bottom: 300px;
+    &-bg {
+        background-image: url(/Users/kotaroamano/Desktop/portfolio.4/pngフォルダ/water-4563198_1920.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        z-index: 0;
+        position: relative;
+    }
+
+    &-inner {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    &-ttl {
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        h1 {
+            font-size: 80px;
+            color: white;
+            z-index: 1;
+        }
+    }
+
+    &-list {
+        position: absolute;
+        right: 10%;
+        top: 28%;
+        a {
+            font-weight: bold;
+            color: white;
+            font-size: 44px;
+            line-height: 3.8;
+        }
+    }
+}
+
+.consept {
+    margin-bottom: 300px;
+
+    &-ttl {
+        text-align: center;
+        margin-bottom: 150px;
+        h2 {
+            font-size: 44px;
+        }
+    }
+
+    &-inner {
+        max-width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        img {
+            width: 500px;
+            width: 48%;
+        }
+    }
+
+    &-texts {
+        width: 48%;
+        h3 {
+            font-size: 30px;
+            margin-bottom: 60px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 2;
+        }
+    }
+}
+
+.about {
+    margin-bottom: 300px;
+
+    &-ttl {
+        max-width: 1024px;
+        margin: 0 auto;
+        margin-bottom: 150px;
+        h2 {
+            font-size: 44px;
+        }
+    }
+
+    &-inner {
+        max-width: 1024px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    &-textsall {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-imgall {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-textsbox {
+        margin-top: 160px;
+        padding-top: 280px;
+        position: relative;
+        h3 {
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+        p {
+            font-size: 20px;
+            line-height: 1.8;
+        }
+    }
+
+    &-textsbox2 {
+        margin-top: 230px;
+        padding-top: 290px;
+        position: relative;
+        h3 {
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+        p {
+            font-size: 20px;
+            line-height: 1.8;
+        }
+    }
+
+    &-textsbox3 {
+        margin-top: 250px;
+        padding-top: 310px;
+        position: relative;
+        h3 {
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+        p {
+            font-size: 20px;
+            line-height: 1.8;
+        }
+    }
+
+    &-imgbox {
+        padding-bottom: 180px;
+        margin-bottom: 180px;
+        img {
+            width: 500px;
+            border-radius: 40px;
+        }
+    }
+}
+
+.about-sp {
+    display: none;
+}
+
+.about-textsbox::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 3px;
+    background-color: black;
+    border-radius: 30%;
+}
+
+.about-textsbox2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 3px;
+    background-color: black;
+    border-radius: 30%;
+}
+
+.about-textsbox3::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 3px;
+    background-color: black;
+    border-radius: 30%;
+}
+
+.info {
+    margin-bottom: 150px;
+
+    &-inner {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding-bottom: 200px;
+    }
+
+    &-ttl {
+        max-width: 1024px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        h2 {
+            font-size: 44px;
+        }
+    }
+
+    &-box {
+        padding-top: 20px;
+        padding-bottom: 15px;
+        border-bottom: solid 2px #EEEEEE;
+    }
+}
+
+.info-type {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.blue {
+    margin-left: 8px;
+    padding: 4px 5px;
+    font-size: 12px;
+    border: solid 2px #0084e9;
+    color: #0084e9;
+}
+
+.red {
+    margin-left: 8px;
+    padding: 4px 5px;
+    font-size: 12px;
+    border: solid 2px #fc3131;
+    color: #fc3131;
+}
+
+.footer {
+    background-color: #333;
+    &-inner {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    &-ttl {
+        padding-bottom: 50px;
+        padding-top: 50px;
+        h2 {
+            font-size: 48px;
+            color: #f4f4f4;
+        }
+    }
+
+    &-list {
+        padding-bottom: 50px;
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a {
+            font-size: 14px;
+            color: #f4f4f4;
+            margin-right: 40px;
+        }
+    }
+}
+
+small {
+    background-color: #333;
+    display: block;
+    text-align: right;
+    color: #f4f4f4;
+    padding-bottom: 50px;
+    padding-right: 20px;
+}
+
+.nav_toggle {
+    display: none;
+}
+
+.nav {
+    display: none;
+}
+
+
+
+
+
+
+//アニメーション
+
+.effect-fade {
+    opacity: 0;
+    transform: translate(0,80px);
+    transition: all 1200ms;
+}
+
+.effect-fade.effect-scroll {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.header-list a {
+    position: relative;
+    display: inline-block;
+}
+
+.header-list a::before {
+    position: absolute;
+    top: 2.6em;
+    left: 0;
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: 1s;
+}
+
+.footer-list a {
+    position: relative;
+    display: inline-block;
+}
+
+.footer-list a::before {
+    position: absolute;
+    top: 1.7em;
+    left: 0;
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 1px;
+    background: #f4f4f4;
+    transition: 0.6s;
+}
+
+a:hover::before  {
+    width: 100%;
+}
