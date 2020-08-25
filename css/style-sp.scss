@@ -83,6 +83,11 @@
     //consept
     .header {
         margin-bottom: 200px;
+
+        &-ttl {
+            display: none;
+        }
+
     }
     .consept {
         width: 100%;
@@ -129,6 +134,7 @@
             text-align: center;
             margin-bottom: 150px;
             h2 {
+                font-family: "Baskerville";
                 font-size: 30px;
             }
         } 

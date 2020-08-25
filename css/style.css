@@ -12,6 +12,14 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-family: "游ゴシック";
+}
+
+h3 {
+  font-family: "游ゴシック";
+}
+
 .header {
   margin-bottom: 300px;
 }
@@ -35,6 +43,7 @@ a {
   top: 30%;
 }
 .header-ttl h1 {
+  font-family: "Baskerville";
   font-size: 80px;
   color: white;
   z-index: 1;
@@ -59,6 +68,7 @@ a {
   margin-bottom: 150px;
 }
 .consept-ttl h2 {
+  font-family: "Baskerville";
   font-size: 44px;
 }
 .consept-inner {
@@ -93,6 +103,7 @@ a {
   margin-bottom: 150px;
 }
 .about-ttl h2 {
+  font-family: "Baskerville";
   font-size: 44px;
 }
 .about-inner {
@@ -210,6 +221,7 @@ a {
   margin-bottom: 40px;
 }
 .info-ttl h2 {
+  font-family: "Baskerville";
   font-size: 44px;
 }
 .info-box {
@@ -254,6 +266,7 @@ a {
 .footer-ttl h2 {
   font-size: 48px;
   color: #f4f4f4;
+  font-family: "Baskerville";
 }
 .footer-list {
   padding-bottom: 50px;
@@ -267,6 +280,7 @@ a {
   font-size: 14px;
   color: #f4f4f4;
   margin-right: 40px;
+  font-family: "游ゴシック";
 }
 
 small {
